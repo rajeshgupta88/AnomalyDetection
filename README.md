@@ -29,10 +29,15 @@ As we deal with data in a time series, simple anomaly detection helps to find pr
 #### Steps to train and validate?
 - Keep all the csv files and python file in the same directory
 - Cd to the directory path from Terminal
-- Run: python <python file>
+- Run: python Anomaly_Detection.py
   - It will ask you some parameters 
     - Number of files for training? (Ans. 3) in the given problem
     - Training File Names? (June13_data.csv, June14_data.csv, June16_data.csv) 
     - Validating file name? (June17_data.csv)
  - Prompt will say " Successful Run" if script runs successfully
  - "AnomalousData.csv" will be generated under the same directory
+    
+    
+#### Jupyter Notebooks
+- Added Data Exploration file - for visualizing the data as well as to get statistical distribution understanding
+- Added Anomaly_Detection file- for better visualizing the python code
